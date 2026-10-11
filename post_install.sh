@@ -3,6 +3,7 @@ set -euo pipefail
 
 configure_wifi ()
 {
+    rfkill unblock all
     sudo systemctl enable --now NetworkManager && sleep 3
     sudo nmcli device wifi list && sleep 5
     echo "Enter wifi name: "
