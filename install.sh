@@ -1,4 +1,5 @@
 #!/bin/bash
+set -euo pipefail
 
 pre_setup(){
     timedatectl set-timezone Asia/Kolkata
