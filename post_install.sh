@@ -82,7 +82,7 @@ gui_setup ()
 
 cli_tools_installation ()
 {
-    sudo pacman -S --noconfirm bash-completion btop tree jq sqlc
+    sudo pacman -S --noconfirm bash-completion btop rocm-smi-lib tree jq sqlc
     sudo pacman -S --noconfirm yazi
     sudo pacman -S --noconfirm man-db man-pages
     sudo pacman -S --noconfirm certbot
