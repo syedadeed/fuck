@@ -5,7 +5,7 @@ pre_setup(){
     timedatectl set-timezone Asia/Kolkata
     timedatectl set-ntp true
     timedatectl
-    # reflector --latest 20 --protocol https --sort rate --save /etc/pacman.d/mirrorlist -c India --download-timeout 50
+    reflector --latest 20 --protocol https --sort rate --save /etc/pacman.d/mirrorlist --download-timeout 50
     pacman -Syy
 }
 

@@ -176,10 +176,10 @@ gui_setup
 cli_tools_installation
 driver_installation
 gui_apps_installation
-virtualization_setup
 secure_boot_setup
 disk_maintenance
 hibernate_setup
+#virtualization_setup
 #vpn_setup
 
 #Bibata cursor theme
