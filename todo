@@ -1,0 +1,10 @@
+install these as well
+gamescope
+glmark2
+google-chrome
+openssh
+rocm-smi-lib
+stress
+tree-sitter-cli
+
+and enable nvidia-powerd
